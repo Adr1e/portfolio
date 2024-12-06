@@ -33,10 +33,12 @@ const ProjectCard = ({ title, description, image, technologies, codeUrl }: Proje
         {codeUrl && (
           <a
             href={codeUrl}
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center gap-2 text-gray-700 hover:text-gray-900 transition-colors"
           >
             <Github size={18} />
-            Code
+            <span className="sr-only">Voir le code sur GitHub</span>
           </a>
         )}
       </div>

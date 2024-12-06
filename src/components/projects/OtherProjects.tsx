@@ -80,6 +80,8 @@ const OtherProjects = () => {
                 {project.codeUrl && (
                   <a
                     href={project.codeUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 text-gray-700 hover:text-gray-900 transition-colors"
                   >
                     <Github className="text-gray-700" size={20} />
