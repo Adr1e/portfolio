@@ -6,11 +6,6 @@ const ProfileCard = () => {
   return (
     <div className="text-center">
       <div className="relative">
-        <img
-          src={image}
-          alt="Profile"
-          className="w-32 h-32 rounded-full mx-auto border-4 border-white shadow-lg"
-        />
       </div>
       <h1 className="text-3xl font-bold mt-4">Adrien Fischer</h1>
       <p className="text-lg text-gray-600 mb-8">Développeur Full Stack en devenir</p>
