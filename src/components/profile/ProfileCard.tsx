@@ -1,6 +1,5 @@
 
 import { User, Code, Layout } from 'lucide-react';
-import image from './IMG_20210803_181001.jpg'
 
 const ProfileCard = () => {
   return (
