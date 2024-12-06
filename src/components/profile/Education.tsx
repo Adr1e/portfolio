@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { GraduationCap, Heart } from 'lucide-react';
 
 const Education = () => {

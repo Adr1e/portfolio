@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { User, Code, Layout } from 'lucide-react';
 
 const ProfileCard = () => {

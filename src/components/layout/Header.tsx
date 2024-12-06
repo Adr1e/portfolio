@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Code2, User, Phone } from 'lucide-react';
 
 const Header = () => {
