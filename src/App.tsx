@@ -6,6 +6,8 @@ import Education from './components/profile/Education';
 import FeaturedProjects from './components/projects/FeaturedProjects';
 import OtherProjects from './components/projects/OtherProjects';
 import Contact from './components/contact/Contact';
+import PythonProjects from './components/projects/PythonProjects';
+
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
         <section id="projects" className="mb-16">
           <FeaturedProjects />
           <OtherProjects />
+          <PythonProjects />
+
         </section>
         
         <section id="contact" className="mb-16">
